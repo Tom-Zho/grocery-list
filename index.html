@@ -4,11 +4,12 @@
     <style>
         body {
             font-family: Times New Roman,Times, serif;
-            background-color: #f0fffc;
+            background-color: #05deff;
             padding: 20px;
         }
         h1 {
-            color:#6a22e6;
+            color:#ffff00;
+            font-size: 2.5rem;
         }
 
         ul {
@@ -32,10 +33,10 @@
             border-radius: 5px;
         }
         button:hover {
-            background-color:rgb(11, 237, 199);
+            background-color:rgb(186, 176, 38);
         }
         button:active{
-            background-color:black;
+            background-color:rgb(247, 7, 7);
         }
     </style>
 </head>
@@ -43,13 +44,16 @@
     <h1>My Grocery List</h1>
     <p>Don't forget to buy: </p>
 
-    <ul>
-        <li><input type="checkbox" id="item1"><label for="item1">Apple</label></li>
+    <ol>
+        <li><input type="checkbox" id="item1"><label for="item1">🍎Apple</label></li>
         <li><input type="checkbox" id="item2"><label for="item2">🍌Banana</label></li>
         <li><input type="checkbox" id="item3"><label for="item3">🟠Orange</label></li>
         <li><input type="checkbox" id="item4"><label for="item4">🥔Potato</label></li>
         <li><input type="checkbox" id="item5"><label for="item5">🥛Milk</label></li>
-    </ul>
+        <li><input type="checkbox" id="item6"><label for ="item6">🥖Bread<label></li>
+        <li><input type="checkbox" id="item7"><label for ="item7">🥚Egg<label></li>
+        <li><input type="checkbox" id="item8"><label for ="item8">🧀Cheese<label></li>
+    </ol>
     <p>Click on the checkbox to mark an item as bought</p>
 
     <button>Clear all</button>
